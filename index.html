@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Автосервис "Вольт и Мотор" | Ремонт, электрика, диагностика</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Exo+2:wght@600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+</head>
+<body>
+    <!-- Шапка и навигация -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#home" class="logo">В<span>О</span>ЛЬТ<span>&</span>МОТОР</a>
+                <ul class="nav-menu">
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#about">О мастере</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+                <button class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Герой-секция -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="fade-in">Профессиональный ремонт автомобилей</h1>
+                <p class="fade-in-delay">Комплексное обслуживание, электрика, диагностика, ремонт двигателей и ходовой части. Качество и надежность.</p>
+                <a href="#contact" class="btn btn-hero pulse">Записаться на ремонт</a>
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- Услуги -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title slide-in">Наши услуги</h2>
+            <p class="section-subtitle slide-in-delay">Полный спектр услуг для вашего автомобиля</p>
+            <div class="services-grid">
+                <div class="service-card pop-up">
+                    <div class="service-img">
+                        <!-- ВСТАВЬТЕ СВОЕ ИЗОБРАЖЕНИЕ -->
+                        <img src="images/service-electric.jpg" alt="Автоэлектрика" width="400" height="250">
+                    </div>
+                    <h3>Автоэлектрика</h3>
+                    <p>Диагностика и ремонт электропроводки, бортовых компьютеров, датчиков, освещения, аудиосистем.</p>
+                </div>
+                <div class="service-card pop-up">
+                    <div class="service-img">
+                        <!-- ВСТАВЬТЕ СВОЕ ИЗОБРАЖЕНИЕ -->
+                        <img src="images/service-engine.jpg" alt="Ремонт двигателя" width="400" height="250">
+                    </div>
+                    <h3>Ремонт двигателя</h3>
+                    <p>Капитальный и текущий ремонт двигателей, замена ГРМ, ремонт турбин, систем впрыска и подачи топлива.</p>
+                </div>
+                <div class="service-card pop-up">
+                    <div class="service-img">
+                        <!-- ВСТАВЬТЕ СВОЕ ИЗОБРАЖЕНИЕ -->
+                        <img src="images/service-diagnostics.jpg" alt="Компьютерная диагностика" width="400" height="250">
+                    </div>
+                    <h3>Диагностика</h3>
+                    <p>Полная компьютерная диагностика всех систем автомобиля для точного определения неисправностей.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- О мастере -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-wrapper">
+                <div class="about-img slide-in-left">
+                    <!-- ВСТАВЬТЕ СВОЕ ИЗОБРАЖЕНИЕ (портрет мастера) -->
+                    <img src="images/master-photo.jpg" alt="Мастер автосервиса" width="500" height="600">
+                </div>
+                <div class="about-content slide-in-right">
+                    <h2 class="section-title">О мастере</h2>
+                    <p>Меня зовут Алексей, и я занимаюсь ремонтом автомобилей уже более 15 лет. Специализация — сложные случаи с электрикой и электроникой современных авто.</p>
+                    <p>Работаю с профессиональным оборудованием: осциллографы, сканеры оригинальных марок, паяльные станции. Постоянно повышаю квалификацию на курсах у официальных дилеров.</p>
+                    <ul class="skills">
+                        <li><i class="fas fa-check-circle"></i> Гарантия на все виды работ</li>
+                        <li><i class="fas fa-check-circle"></i> Используем только оригинальные или проверенные аналоги запчастей</li>
+                        <li><i class="fas fa-check-circle"></i> Честная диагностика и цены</li>
+                        <li><i class="fas fa-check-circle"></i> Выездная помощь на дороге (электрика, запуск двигателя)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты и футер -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title slide-in">Контакты</h2>
+            <p class="section-subtitle">Работаем по предварительной записи</p>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Как связаться</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> <strong>Адрес:</strong> г. Москва, ул. Автозаводская, д. 12 (территория СТО "Колесо")</p>
+                    <p><i class="fas fa-phone"></i> <strong>Телефон:</strong> <a href="tel:+79991234567">+7 (999) 123-45-67</a></p>
+                    <p><i class="fas fa-envelope"></i> <strong>Email:</strong> <a href="mailto:info@volt-motor.ru">info@volt-motor.ru</a></p>
+                    <p><i class="fas fa-clock"></i> <strong>Режим работы:</strong> Пн-Пт: 9:00-20:00, Сб: 10:00-18:00</p>
+                </div>
+                <div class="contact-form">
+                    <h3>Форма записи</h3>
+                    <form id="serviceForm">
+                        <input type="text" placeholder="Ваше имя" required>
+                        <input type="tel" placeholder="Ваш телефон" required>
+                        <select required>
+                            <option value="" disabled selected>Выберите услугу</option>
+                            <option value="electric">Автоэлектрика</option>
+                            <option value="engine">Ремонт двигателя</option>
+                            <option value="diagnostics">Диагностика</option>
+                            <option value="other">Другое</option>
+                        </select>
+                        <textarea placeholder="Опишите проблему или пожелания..." rows="4"></textarea>
+                        <button type="submit" class="btn">Отправить заявку</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 Автосервис "Вольт и Мотор". Все права защищены.</p>
+            <p class="social">
+                <a href="#"><i class="fab fa-vk"></i></a>
+                <a href="#"><i class="fab fa-telegram"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
